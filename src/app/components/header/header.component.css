@@ -23,3 +23,29 @@
   border-top-right-radius: 1rem;
   border-bottom-right-radius: 1rem;
 }
+.navbar-nav .nav-item {
+  text-align: center;
+}
+.navbar-nav .nav-item i {
+  display: block;
+  color:#FFFFFF;
+}
+.navbar-nav .nav-item a {
+  color:#FFFFFF;
+}
+.navbar-nav .nav-item .badge {
+  position: fixed;
+  top: 10px;
+  margin-left: 10px;
+}
+/**************** Menu ****************************/
+#top-menu {
+  border-bottom: 2px solid #E4E7ED;
+}
+#top-menu .nav-item a {
+  color: #15161D;
+}
+#top-menu .nav-item a:hover {
+  color: #D10024;
+}
+/**************************************************/
