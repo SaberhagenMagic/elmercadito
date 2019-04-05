@@ -1,0 +1,25 @@
+.bg-dark {
+  background-color: #15161D !important;
+  border-bottom: #D10024 solid 3px;
+  height: 80px;
+}
+.navbar-brand {
+  font-size: 1.5rem;
+}
+.iconHome {
+  color: #D10024;
+  margin-right: 5px;
+}
+.dotRed {
+  height: 8px;
+  margin-bottom: 3px;
+}
+.custom-select {
+  border-radius: 1rem;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+#button-addon2 {
+  border-top-right-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+}

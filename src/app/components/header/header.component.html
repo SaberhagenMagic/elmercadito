@@ -1,7 +1,25 @@
 <!-- Image and text -->
-<nav class="navbar navbar-light bg-light">
+<nav class="navbar navbar-dark bg-dark">
   <a class="navbar-brand" href="#">
-    <img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
-    El Mercadito
+    <i class="fas fa-comment-dollar iconHome"></i>
+    El<img src="../../../assets/img/dotRed.png" class="dotRed">Mercadito
   </a>
+  <form class="form-inline">
+
+    <div class="input-group">
+      <div class="input-group-prepend">
+        <select class="custom-select" id="inputGroupSelect01">
+          <option selected>Categorias</option>
+          <option value="1">One</option>
+          <option value="2">Two</option>
+          <option value="3">Three</option>
+        </select>
+      </div>
+      <input type="text" class="form-control" placeholder="Buscar aquí..." >
+      <div class="input-group-append">
+        <button class="btn btn-danger" type="button" id="button-addon2">Buscar</button>
+      </div>
+    </div>
+
+  </form>
 </nav>
