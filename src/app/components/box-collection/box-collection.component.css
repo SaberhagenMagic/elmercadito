@@ -1,0 +1,51 @@
+.card-collection {
+  width: 23rem;
+  border-radius: initial;
+  background-color: unset;
+  overflow: hidden;
+  color: white;
+}
+.card-collection:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0px;
+  width: 60%;
+  background: #D10024;
+  opacity: 0.9;
+  -webkit-transform: skewX(-45deg);
+  -ms-transform: skewX(-45deg);
+  transform: skewX(-45deg);
+}
+.card-collection:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 1px;
+  width: 100%;
+  background: #D10024;
+  opacity: 0.9;
+  -webkit-transform: skewX(-45deg) translateX(-100%);
+  -ms-transform: skewX(-45deg) translateX(-100%);
+  transform: skewX(-45deg) translateX(-100%);
+}
+
+
+.bgCollection {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bgCollection img {
+  width: 100%;
+}
+.card-body {
+  z-index: 1;
+}
