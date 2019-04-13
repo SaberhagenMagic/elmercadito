@@ -39,13 +39,38 @@
   margin-left: 10px;
 }
 /**************** Menu ****************************/
-#top-menu {
+.dvBarMenu {
+  text-align: center;
   border-bottom: 2px solid #E4E7ED;
+  padding: 5px 30px;
+}
+/* #top-menu, #top-menu > .nav-item {
+  display: inline-block;
+} */
+#top-menu > .nav-item span {
+  position: relative;
+}
+#top-menu > .nav-item span::after {
+  position: absolute;
+  left: 0;
+  content: '';
+  height: 2px;
+  background: #D10024;
+  transition: all 0.3s ease;
+  width: 0;
+  bottom: -2px;
+}
+#top-menu > .nav-item span:hover:after{
+  width: 100%;
 }
 #top-menu .nav-item a {
   color: #15161D;
 }
-#top-menu .nav-item a:hover {
+#top-menu .nav-item span:hover {
   color: #D10024;
+}
+.active > span {
+  color: #D10024 !important;
+  border-bottom: 2px solid #D10024;
 }
 /**************************************************/
